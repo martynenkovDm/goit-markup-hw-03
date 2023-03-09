@@ -135,6 +135,8 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  display: block;
 }
 .logotype-studio {
   color: var(--secondary-text-color);
@@ -168,8 +170,7 @@ body {
   margin-right: 40px;
 }
 
-.header-navigation .header-link,
-.filter {
+.header-navigation .header-link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -329,11 +330,12 @@ body {
 }
 .footer-text {
   color: var(--footer-text-color);
+  margin-top: 16px;
   max-width: 264px;
 }
 .logotype-part {
   color: var(--logotype-part-color);
 }
 .footer.section {
-  padding: 100px;
+  padding: 100px 0;
 }
